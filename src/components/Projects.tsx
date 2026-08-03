@@ -3,17 +3,9 @@ import { Briefcase, Calendar, MapPin, Github, ExternalLink } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      name: "Vathavaranam",
-      description:
-        "A simple web app that provides a 5-day global weather forecast and visualization dashboard, showing real-time weather details for any location entered by the user.",
-      skills: ["Python","Streamlit"],
-      github: "https://github.com/jahnavi854janu/Vathavaranam", 
-      live: "https://vathavaranam.streamlit.app/", 
-    },
-    {
       name: "Hand Puzzle",
       description:
-        "AI-Powered AR Puzzle Game using MediaPipe Hand Tracking",
+        "AI-powered AR puzzle game using MediaPipe hand tracking, HTML5 Canvas, and Vanilla JavaScript. Solve puzzles with intuitive hand gestures directly in your browser.",
       skills: ["HTML5, CSS3, Vanilla JavaScript, HTML5 Canvas, MediaPipe AI, WebRTC (Webcam API)"],
       github: "https://github.com/jahnavi854janu/Hand-Puzzle", 
       live: "https://jahnavi854janu.github.io/Hand-Puzzle/", 
@@ -27,6 +19,14 @@ const Projects = () => {
       live: "https://jahnavi854janu.github.io/SPEED-TYPING-TEST", 
     },
     {
+      name: "Vathavaranam",
+      description:
+        "A simple web app that provides a 5-day global weather forecast and visualization dashboard, showing real-time weather details for any location entered by the user.",
+      skills: ["Python","Streamlit"],
+      github: "https://github.com/jahnavi854janu/Vathavaranam", 
+      live: "https://vathavaranam.streamlit.app/", 
+    },
+    {
       name: "Word Dictionary Web App",
       description:
         "A web app that fetches word definitions, synonyms, and pronunciation using an API. Designed with responsive UI and modern web practices.",
@@ -35,20 +35,20 @@ const Projects = () => {
       live: "https://jahnavi854janu.github.io/WORD-DICTIONARY-WEB-APP", 
     },
     {
-      name: "Tic Tac Toe Game",
-      description:
-        "A classic Tic Tac Toe game built with React, allowing two players to play turn by turn with a clean UI and responsive design.",
-      skills: ["HTML", "JavaScript", "CSS"],
-      github: "https://github.com/jahnavi854janu/TIC-TAC-TOE", 
-      live: "https://jahnavi854janu.github.io/TIC-TAC-TOE", 
-    },
-    {
       name: "Quiz App",
       description:
         "An interactive quiz app with multiple categories and score tracking. Users can test their knowledge with instant feedback.",
       skills: ["HTML", "JavaScript", "CSS"],
       github: "https://github.com/jahnavi854janu/QUIZ-APP", 
       live: "https://jahnavi854janu.github.io/QUIZ-APP", 
+    },
+    {
+      name: "Tic Tac Toe Game",
+      description:
+        "A classic Tic Tac Toe game built with React, allowing two players to play turn by turn with a clean UI and responsive design.",
+      skills: ["HTML", "JavaScript", "CSS"],
+      github: "https://github.com/jahnavi854janu/TIC-TAC-TOE", 
+      live: "https://jahnavi854janu.github.io/TIC-TAC-TOE", 
     },
   ];
 
