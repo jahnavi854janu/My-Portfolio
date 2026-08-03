@@ -5,8 +5,8 @@ const Education = () => {
     {
       degree: "B.Tech in Computer Science and Engineering (AIML)",
       institution: "KG Reddy College of Engineering and Technology, Moinabad",
-      period: "Oct 2022 – Present",
-      status: "Current",
+      period: "Oct 2022 – July 2026",
+      status: "Completed",
       description: "Specializing in Artificial Intelligence and Machine Learning with focus on full-stack development and problem-solving."
     },
     {

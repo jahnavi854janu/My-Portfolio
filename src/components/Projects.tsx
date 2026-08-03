@@ -3,49 +3,52 @@ import { Briefcase, Calendar, MapPin, Github, ExternalLink } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      name: "Speed Typing Test",
-      description:
-        "A fun typing speed test app that measures typing accuracy and words per minute (WPM) with a timer-based challenge.",
-      image: "/assets/speedtyping.jpg.png",
-      skills: ["HTML", "JavaScript", "CSS"],
-      github: "https://github.com/jahnavi854janu/SPEED-TYPING-TEST", // replace with your repo
-      live: "https://jahnavi854janu.github.io/SPEED-TYPING-TEST", // replace with your live demo
-    },
-    {
       name: "Vathavaranam",
       description:
         "A simple web app that provides a 5-day global weather forecast and visualization dashboard, showing real-time weather details for any location entered by the user.",
-      image: "/assets/worddictionary.jpg.png",
       skills: ["Python","Streamlit"],
-      github: "https://github.com/jahnavi854janu/Vathavaranam", // replace with your repo
-      live: "https://vathavaranam.streamlit.app/", // replace with your live demo
+      github: "https://github.com/jahnavi854janu/Vathavaranam", 
+      live: "https://vathavaranam.streamlit.app/", 
+    },
+    {
+      name: "Hand Puzzle",
+      description:
+        "AI-Powered AR Puzzle Game using MediaPipe Hand Tracking",
+      skills: ["HTML5, CSS3, Vanilla JavaScript, HTML5 Canvas, MediaPipe AI, WebRTC (Webcam API)"],
+      github: "https://github.com/jahnavi854janu/Hand-Puzzle", 
+      live: "https://jahnavi854janu.github.io/Hand-Puzzle/", 
+    },
+    {
+      name: "Speed Typing Test",
+      description:
+        "A fun typing speed test app that measures typing accuracy and words per minute (WPM) with a timer-based challenge.",
+      skills: ["HTML", "JavaScript", "CSS"],
+      github: "https://github.com/jahnavi854janu/SPEED-TYPING-TEST", 
+      live: "https://jahnavi854janu.github.io/SPEED-TYPING-TEST", 
     },
     {
       name: "Word Dictionary Web App",
       description:
         "A web app that fetches word definitions, synonyms, and pronunciation using an API. Designed with responsive UI and modern web practices.",
-      image: "/assets/worddictionary.jpg.png",
       skills: ["HTML", "Javascript", "CSS"],
-      github: "https://github.com/jahnavi854janu/WORD-DICTIONARY-WEB-APP", // replace with your repo
-      live: "https://jahnavi854janu.github.io/WORD-DICTIONARY-WEB-APP", // replace with your live demo
+      github: "https://github.com/jahnavi854janu/WORD-DICTIONARY-WEB-APP", 
+      live: "https://jahnavi854janu.github.io/WORD-DICTIONARY-WEB-APP", 
     },
     {
       name: "Tic Tac Toe Game",
       description:
         "A classic Tic Tac Toe game built with React, allowing two players to play turn by turn with a clean UI and responsive design.",
-      image: "/assets/tictactoe.jpg.png",
       skills: ["HTML", "JavaScript", "CSS"],
-      github: "https://github.com/jahnavi854janu/TIC-TAC-TOE", // replace with your repo
-      live: "https://jahnavi854janu.github.io/TIC-TAC-TOE", // replace with your live demo
+      github: "https://github.com/jahnavi854janu/TIC-TAC-TOE", 
+      live: "https://jahnavi854janu.github.io/TIC-TAC-TOE", 
     },
     {
       name: "Quiz App",
       description:
         "An interactive quiz app with multiple categories and score tracking. Users can test their knowledge with instant feedback.",
-      image: "assets/quizapp.jpg.png",
       skills: ["HTML", "JavaScript", "CSS"],
-      github: "https://github.com/jahnavi854janu/QUIZ-APP", // replace with your repo
-      live: "https://jahnavi854janu.github.io/QUIZ-APP", // replace with your live demo
+      github: "https://github.com/jahnavi854janu/QUIZ-APP", 
+      live: "https://jahnavi854janu.github.io/QUIZ-APP", 
     },
   ];
 

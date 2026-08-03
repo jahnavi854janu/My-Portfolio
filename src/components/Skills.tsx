@@ -5,7 +5,7 @@ const Skills = () => {
     {
       title: "Core Skills",
       icon: <Code size={24} />,
-      skills: ["OOP", "Problem Solving"]
+      skills: ["Core Java","OOPs", "SQL", "Python"]
     },
     {
       title: "Languages",
@@ -15,12 +15,12 @@ const Skills = () => {
     {
       title: "Web Technologies",
       icon: <Palette size={24} />,
-      skills: ["React.js", "UI/UX Design", "Frontend Development"]
+      skills: ["HTML", "CSS","JavaScript"]
     },
     {
       title: "Tools",
       icon: <Wrench size={24} />,
-      skills: ["Git & GitHub", "VS Code"]
+      skills: ["Eclipse IDE", "SQL*Plus","GitHub", "VS Code"]
     }
   ];
 
@@ -67,9 +67,9 @@ const Skills = () => {
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { skill: "React.js", level: 70 },
+              { skill: "Core Java", level: 90 },
               { skill: "Python", level: 75 },
-              { skill: "UI/UX Design", level: 90 },
+              { skill: "SQL", level: 90 },
               { skill: "Problem Solving", level: 75 },
               { skill: "JavaScript", level: 75 },
               { skill: "Web Development", level: 90 }
