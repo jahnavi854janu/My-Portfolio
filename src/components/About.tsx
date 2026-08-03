@@ -35,8 +35,8 @@ const About = () => {
                 Jahnavi Banoth
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm Jahnavi Banoth, a final-year Computer Science and Engineering student 
-                passionate about solving real-world problems through innovative technology. 
+                I'm Jahnavi Banoth, a Computer Science and Engineering student 
+                passionate about solving real-world problems through innovative technology.  
                 I specialize in full-stack development, machine learning, and UI/UX design.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
