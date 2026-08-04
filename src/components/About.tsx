@@ -2,6 +2,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 relative">
       <div className="max-w-6xl mx-auto px-4">
+        {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
             About Me
@@ -18,8 +19,11 @@ const About = () => {
                   <img
                     src={`${import.meta.env.BASE_URL}profile.jpg`}
                     alt="Jahnavi Banoth"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
+
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full bg-primary/20 blur-xl"></div>
               <div className="absolute -bottom-4 -left-4 w-32 h-32 rounded-full bg-secondary/20 blur-xl"></div>
@@ -32,33 +36,34 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-foreground">
                 Jahnavi Banoth
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm Jahnavi Banoth, a Computer Science and Engineering student 
-                passionate about solving real-world problems through innovative technology.  
-                I specialize in full-stack development, machine learning, and UI/UX design.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                I've built several hands-on projects addressing privacy, accessibility, 
-                and community impact. I'm currently seeking opportunities to apply my skills 
-                in a dynamic tech environment where I can continue learning.
-              </p>
-              
-              <div className="grid grid-cols-2 gap-4 mt-8">
-                
-                <a 
-  href={`${import.meta.env.BASE_URL}jahnavi-resume.pdf`} 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className="glass-card p-4 rounded-xl text-center block hover:scale-[1.02] transition-all duration-300"
->
-  <div className="text-2xl font-bold text-secondary mb-1">
-    📄
-  </div>
-  <div className="text-sm text-muted-foreground">
-    Resume
-  </div>
-</a>
 
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                I'm Jahnavi Banoth, a Computer Science and Engineering student
+                passionate about solving real-world problems through innovative
+                technology. I specialize in full-stack development, machine
+                learning, and UI/UX design.
+              </p>
+
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                I've built several hands-on projects addressing privacy,
+                accessibility, and community impact. I'm currently seeking
+                opportunities to apply my skills in a dynamic tech environment
+                where I can continue learning.
+              </p>
+
+              {/* Resume Card */}
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                <a
+                  href={`${import.meta.env.BASE_URL}jahnavi-resume.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="glass-card p-6 rounded-xl text-center hover:scale-105 transition-transform duration-300"
+                >
+                  <div className="text-4xl mb-3">📄</div>
+                  <div className="text-sm text-muted-foreground font-medium">
+                    Resume
+                  </div>
+                </a>
               </div>
             </div>
           </div>
