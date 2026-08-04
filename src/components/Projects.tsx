@@ -1,9 +1,17 @@
 import { Briefcase, Calendar, MapPin, Github, ExternalLink } from 'lucide-react';
+import HandPuzzle from "../assets/HandPuzzle.jpg.png";
+import EasyCode from "../assets/EasyCode.jpg.png";
+import speedtyping from "../assets/speedtyping.jpg.png";
+import vathavaranam from "../assets/Vathavaranam.jpg.png";
+import worddictionary from "../assets/worddictionary.jpg.png";
+import quizapp from "../assets/quizapp.jpg.png";
+import tictactoe from "../assets/tictactoe.jpg.png";
 
 const Projects = () => {
   const projects = [
     {
       name: "Hand Puzzle",
+      image: HandPuzzle,
       description:
         "AI-powered AR puzzle game using MediaPipe hand tracking, HTML5 Canvas, and Vanilla JavaScript. Solve puzzles with intuitive hand gestures directly in your browser.",
       skills: ["HTML5, CSS3, Vanilla JavaScript, HTML5 Canvas, MediaPipe AI, WebRTC (Webcam API)"],
@@ -12,6 +20,7 @@ const Projects = () => {
     },
     {
       name: "EasyCode",
+      image: EasyCode,
       description:
         "An interactive programming learning platform with a built-in code editor, syntax highlighting, code execution simulation, and detailed explanations for C, Python, HTML, CSS, JavaScript, and Java.",
       skills: ["HTML"],
@@ -20,6 +29,7 @@ const Projects = () => {
     },
     {
       name: "Speed Typing Test",
+      image: speedtyping,
       description:
         "A fun typing speed test app that measures typing accuracy and words per minute (WPM) with a timer-based challenge.",
       skills: ["HTML", "JavaScript", "CSS"],
@@ -28,6 +38,7 @@ const Projects = () => {
     },
     {
       name: "Vathavaranam",
+      image: vathavaranam,
       description:
         "A simple web app that provides a 5-day global weather forecast and visualization dashboard, showing real-time weather details for any location entered by the user.",
       skills: ["Python","Streamlit"],
@@ -36,6 +47,7 @@ const Projects = () => {
     },
     {
       name: "Word Dictionary Web App",
+      image: worddictionary,
       description:
         "A web app that fetches word definitions, synonyms, and pronunciation using an API. Designed with responsive UI and modern web practices.",
       skills: ["HTML", "Javascript", "CSS"],
@@ -44,6 +56,7 @@ const Projects = () => {
     },
     {
       name: "Quiz App",
+      image: quizapp,
       description:
         "An interactive quiz app with multiple categories and score tracking. Users can test their knowledge with instant feedback.",
       skills: ["HTML", "JavaScript", "CSS"],
@@ -52,6 +65,7 @@ const Projects = () => {
     },
     {
       name: "Tic Tac Toe Game",
+      image: tictactoe,
       description:
         "A classic Tic Tac Toe game built with React, allowing two players to play turn by turn with a clean UI and responsive design.",
       skills: ["HTML", "JavaScript", "CSS"],
