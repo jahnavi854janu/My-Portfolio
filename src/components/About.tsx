@@ -46,7 +46,7 @@ const About = () => {
               <div className="grid grid-cols-2 gap-4 mt-8">
                 
                 <a 
-  href="/jahnavi-resume.pdf" 
+  href={`${import.meta.env.BASE_URL}jahnavi-resume.pdf`} 
   target="_blank" 
   rel="noopener noreferrer" 
   className="glass-card p-4 rounded-xl text-center block hover:scale-[1.02] transition-all duration-300"
