@@ -11,6 +11,14 @@ const Projects = () => {
       live: "https://jahnavi854janu.github.io/Hand-Puzzle/", 
     },
     {
+      name: "EasyCode",
+      description:
+        "An interactive programming learning platform with a built-in code editor, syntax highlighting, code execution simulation, and detailed explanations for C, Python, HTML, CSS, JavaScript, and Java.",
+      skills: ["HTML"],
+      github: "https://github.com/jahnavi854janu/EasyCode", 
+      live: "https://jahnavi854janu.github.io/EasyCode/", 
+    },
+    {
       name: "Speed Typing Test",
       description:
         "A fun typing speed test app that measures typing accuracy and words per minute (WPM) with a timer-based challenge.",
