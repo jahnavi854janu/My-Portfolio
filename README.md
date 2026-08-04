@@ -1,50 +1,67 @@
+# 🌐 Jahnavi's Portfolio
 
+Welcome to my personal portfolio! This website showcases my skills, projects, internships, certifications, and achievements as a **B.Tech Computer Science (AI & ML)** student.
 
-**Use your preferred IDE**
+## 🚀 Live Demo
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔗 **Portfolio:** https://jahnavi854janu.github.io/My-Portfolio/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 👩‍💻 About Me
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Hi, I'm **Jahnavi Banoth**, a Computer Science (AI & ML) student passionate about software development, artificial intelligence, and creating modern web applications. I enjoy learning new technologies and building projects that solve real-world problems.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ✨ Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- 🎨 Modern and responsive UI
+- 🌙 Light/Dark mode
+- 👤 About Me section
+- 💻 Skills showcase
+- 📂 Projects section
+- 🎓 Education & Certifications
+- 💼 Internship Experience
+- 📄 Resume download
+- 📱 Fully responsive design
+- 📬 Contact section
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+### Frontend
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Vite
 
+### Tools
+- Git
+- GitHub
+- VS Code
 
+---
 
+## 📂 Featured Projects
+
+- 🖐️ Hand Puzzle
+- 💻 EasyCode
+- ⌨️ Speed Typing Test
+- 🌦️ Vathavaranam
+- 📖 Word Dictionary Web App
+- ❓ Quiz App
+- ⭕ Tic Tac Toe Game
+
+---
+
+## 📬 Contact
+
+📧 Email: [jahnavijanu854@gmail.com](mailto:jahnavijanu854@gmail.com)
+
+💼 LinkedIn: https://linkedin.com/in/your-profile
+
+💻 GitHub: https://github.com/your-username
+
+---
