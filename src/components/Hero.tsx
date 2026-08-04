@@ -38,7 +38,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 fade-in-up delay-300">
-          Software Engineer | Front-end Developer
+          Software Engineer | Web Developer
         </p>
 
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto fade-in-up delay-500">
