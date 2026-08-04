@@ -15,11 +15,9 @@ const About = () => {
             <div className="relative">
               <div className="glass-card p-8 rounded-3xl">
                 <div className="w-full h-80 rounded-2xl overflow-hidden border border-primary/20">
-                  <img 
-                    src="/src/assets/profile.jpg" 
-                    alt="Jahnavi Banoth" 
-                    className="w-full h-full object-cover"
-                  />
+                  <img
+                    src={`${import.meta.env.BASE_URL}profile.jpg`}
+                    alt="Jahnavi Banoth"
                 </div>
               </div>
               {/* Decorative elements */}
