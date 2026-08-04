@@ -87,7 +87,14 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((proj, index) => (
             <div key={index} className="Project-card">
-              <div className="flex items-start justify-between mb-4">
+
+  <img
+    src={proj.image}
+    alt={proj.name}
+    className="w-full h-56 object-cover rounded-xl mb-5"
+  />
+
+  <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-lg bg-primary/20">
                     <Briefcase className="text-primary" size={24} />
