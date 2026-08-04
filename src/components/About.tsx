@@ -1,3 +1,4 @@
+import profile from "../assets/profile.jpg";
 const About = () => {
   return (
     <section id="about" className="py-20 relative">
@@ -16,11 +17,11 @@ const About = () => {
             <div className="relative">
               <div className="glass-card p-8 rounded-3xl">
                 <div className="w-full h-80 rounded-2xl overflow-hidden border border-primary/20">
-                  <img
-                    src={`${import.meta.env.BASE_URL}profile.jpg`}
-                    alt="Jahnavi Banoth"
-                    className="w-full h-full object-cover"
-                  />
+                 <img
+                   src={profile}
+                   alt="Jahnavi Banoth"
+                   className="w-full h-full object-cover"
+                   />
                 </div>
               </div>
 
