@@ -39,7 +39,7 @@ const Certificates = () => {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="section-title">
             Certifications
           </h2>
         </div>
