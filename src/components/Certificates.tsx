@@ -34,15 +34,16 @@ const certificates = [
 
 const Certificates = () => {
   return (
-    <section id="certificates" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section id="certificates" className="py-20 px-6">
+      <div className="container mx-auto max-w-6xl">
 
-        {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="section-title">
             Certifications
           </h2>
         </div>
+
+        {/* Certificates Grid */}
 
         {/* Certificates Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
