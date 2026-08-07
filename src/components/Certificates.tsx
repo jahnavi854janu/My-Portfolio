@@ -46,37 +46,35 @@ const Certificates = () => {
 
         {/* Certificates Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {certificates.map((certificate, index) => (
-        <div
-          key={index}
-          className="rounded-xl overflow-hidden bg-card border border-border shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
-        >
-          <a
-            href={certificate.image}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={certificate.image}
-              alt={certificate.title}
-              className="w-full h-64 object-cover cursor-pointer"
-            />
-          </a>
+          {certificates.map((certificate, index) => (
+            <div
+              key={index}
+              className="rounded-xl overflow-hidden bg-card border border-border shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <a
+                href={certificate.image}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={certificate.image}
+                  alt={certificate.title}
+                  className="w-full h-64 object-cover cursor-pointer"
+                />
+              </a>
 
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-center">
-              {certificate.title}
-            </h3>
-          </div>
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-center">
+                  {certificate.title}
+                </h3>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
 
-  </div>
-</section>
-```
-
-);
+      </div>
+    </section>
+  );
 };
 
 export default Certificates;
